@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Orchidea Pro';
+    src: local('Orchidea Pro Medium'), local('Orchidea-Pro-Medium'),
+        url('OrchideaPro-Medium.woff2') format('woff2'),
+        url('OrchideaPro-Medium.woff') format('woff'),
+        url('OrchideaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
