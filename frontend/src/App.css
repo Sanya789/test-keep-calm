@@ -1,5 +1,5 @@
 /* Обнуление стилей */
-*, 
+*,
 *::before,
 *::after {
   padding: 0;
@@ -27,15 +27,15 @@ h4,
 h5,
 h6 {
   font-weight: inherit;
-font-size: inherit;
+  font-size: inherit;
 }
 
 body {
-height: 100%;
-line-height: 1;
-font-size: 16px;
-font-family: "Orchidea Pro, Roboto, Manrope";
-color: #000;
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: 'Orchidea Pro, Roboto, Manrope';
+  color: #000;
 }
 
 .wrapper {
@@ -68,13 +68,16 @@ color: #000;
 
 .header__phone {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
   color: white;
 }
 
+.header__phone img {
+  display: none;
+}
 
 /* MAIN */
 .main {
@@ -89,24 +92,24 @@ line-height: 33px;
 }
 
 .content-block {
-display: flex;
-flex-direction: column;
-width: 1588px;
-margin-bottom: 160px;
+  display: flex;
+  flex-direction: column;
+  width: 1588px;
+  margin-bottom: 160px;
 }
 
 .content-block__title {
-align-self: center;
+  align-self: center;
   padding-top: 160px;
   padding-bottom: 140px;
   font-family: 'Orchidea Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 110%;
-/* or 53px */
-text-transform: uppercase;
-color: #141414;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  /* or 53px */
+  text-transform: uppercase;
+  color: #141414;
 }
 
 .content-block__container__left {
@@ -120,7 +123,7 @@ color: #141414;
 
 .container-left__img {
   width: 860px;
-height: 480px;
+  height: 480px;
 }
 .container-left__abstract {
   width: 600px;
@@ -128,26 +131,26 @@ height: 480px;
 }
 .container-left__title {
   font-family: 'Orchidea Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 110%;
-/* or 53px */
-display: flex;
-align-items: center;
-color: #141414;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  /* or 53px */
+  display: flex;
+  align-items: center;
+  color: #141414;
 }
 .container-left__text {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 130%;
-/* or 23px */
-display: flex;
-align-items: center;
-color: #141414;
-margin-top: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  display: flex;
+  align-items: center;
+  color: #141414;
+  margin-top: 25px;
 }
 .content-block__container__right {
   display: flex;
@@ -182,16 +185,16 @@ margin-top: 25px;
 }
 .container-right__text {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 130%;
-/* or 23px */
-display: flex;
-align-items: center;
-color: #141414;
-margin-top: 25px;
-padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  display: flex;
+  align-items: center;
+  color: #141414;
+  margin-top: 25px;
+  padding: 0;
 }
 
 /* FOOTER  */
@@ -201,34 +204,36 @@ padding: 0;
   justify-content: center;
   width: 100%;
   height: 200px;
-background-color: #141414;
+  background-color: #141414;
 }
 
 .footer__text {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
 /* ----------------------------------------- */
 
-html, body, section.horizontal {
+html,
+body,
+section.horizontal {
   overflow-x: hidden;
 }
 
 .blanc__content-block__title {
   align-self: center;
   font-family: 'Orchidea Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 110%;
-/* or 53px */
-text-transform: uppercase;
-color: #141414;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  /* or 53px */
+  text-transform: uppercase;
+  color: #141414;
 }
 
 section h1 {
@@ -247,21 +252,18 @@ section {
   position: relative;
 }
 
-
 section.horizontal {
   overflow-x: hidden;
   margin-bottom: 0;
   padding: 0;
-  /* margin-left: -260px; */
-  /* width: 130%; */
 }
 
 section.horizontal .pin-wrap,
 section.horizontal .animation-wrap {
-    display: flex;
-    position: relative;
-    z-index: 1;  
-    height: 488px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  height: 488px;
 }
 
 section.horizontal .animation-wrap {
@@ -272,43 +274,252 @@ section.horizontal .animation-wrap {
 
 section.horizontal .item {
   padding-right: 40px;
-    position: relative;
-    height: 488px;
-    display: flex;
-    align-items: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.06);
-    background-color: transparent;
+  position: relative;
+  height: 488px;
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.06); */
+  background-color: transparent;
 }
 
 section.horizontal .item:before {
-    position: absolute;
-    font-size: 100px;
-    opacity: .13;
-    z-index: -1;
-    -webkit-transform: translate(-30px, -50px);
-    transform: translate(-30px, -50px);
+  position: absolute;
+  font-size: 100px;
+  opacity: 0.13;
+  z-index: -1;
+  -webkit-transform: translate(-30px, -50px);
+  transform: translate(-30px, -50px);
 }
 
 section.horizontal .animation-wrap.to-right {
-    counter-reset: item;
-    float: left;
-    height: 488px;
+  counter-reset: item;
+  float: left;
+  height: 488px;
 }
 
 section.horizontal .animation-wrap.to-left {
   /* margin-left: 0px; */
-    counter-reset: item 12;
-    float: right; 
+  counter-reset: item 12;
+  float: right;
 }
 
-section.horizontal .animation-wrap .item:nth-child(2n+2) {
-    align-items: flex-start;
+section.horizontal .animation-wrap .item:nth-child(2n + 2) {
+  align-items: flex-start;
 }
 
-section.horizontal .animation-wrap .item:nth-child(4n+4) {
-    align-items: flex-end;
+section.horizontal .animation-wrap .item:nth-child(4n + 4) {
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 375px) {
+
+  ._container {
+    max-width: 375px;
+  }
+
+  .header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .header__container {
+    min-height: 60px;
+    padding: 18px 20px 18px 20px;
+  }
+
+  .header__logo img {
+    width: 118.48px;
+    height: 20px;
+  }
+
+  .header__phone p {
+    display: none;
+  }
+
+  .header__phone img {
+    display: block;
+  }
+
+  .main {
+    margin-top: 96px;
+  }
+
+  .content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 375px;
+    
+  }
+  .content-block__title {
+    align-self: center;
+    padding: 70px 20px 60px 20px;
+    font-family: 'Orchidea Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+  .content-block__container__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 669px;
+    margin-bottom: 160px;
+  }
+
+  .container-left__img {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 375px;
+    height: 370px;
+  }
+
+  .container-left__img img{
+  }
+
+  .container-left__abstract {
+    width: 335px;
+    height: 259px;
+    padding-top: 104px;
+  }
+  .container-left__title {
+    font-family: 'Orchidea Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    display: flex;
+    align-items: center;
+    color: #141414;
+  }
+  .container-left__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+    display: flex;
+    align-items: center;
+    color: #141414;
+  }
+  .content-block__container__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 375px;
+    width: 669px;
+    align-self: center;
+  }
+  .container-right__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 360px;
+    padding-top: 30px;
+  }
+
+  .container-right__abstract {
+    padding: 70px 20px 60px 20px;
+    width: 375px;
+    height: 259px;
+    padding-top: 104px;
+    margin-bottom: 100px;
+  }
+  .container-right__title {
+    font-family: 'Orchidea Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    display: flex;
+    align-items: center;
+    color: #141414;
+  }
+
+  .container-right__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+    display: flex;
+    align-items: center;
+    color: #141414;
+    margin-top: 25px;
+  }
+
+  .blank {
+    padding-top: 200px;
+    margin-bottom: 56px;
+  }
+
+  .blanc__content-block__title {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Orchidea Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+  .horizontal {
+  }
+  section.horizontal .pin-wrap,
+  section.horizontal .animation-wrap {
+    height: 344px;
+  }
+  section.horizontal .animation-wrap {
+    margin-left: 20px;
+    height: 344px;
+  }
+
+section.horizontal .pin-wrap {
+}
+
+  section.horizontal .item {
+    padding-right: 28px;
+    height: 344px;
+  }
+  section.horizontal .item img{
+    height: 344px;
+      }
+  section.horizontal .animation-wrap.to-right {
+    height: 344px;
+  }
+  section.horizontal .animation-wrap.to-left {
+  }
+  
+  section.horizontal .animation-wrap .item:nth-child(2n + 2) {
+  }
+  
+  section.horizontal .animation-wrap .item:nth-child(4n + 4) {
+  }
+
+  .footer {
+    margin-top: 350px;
+  }
 }

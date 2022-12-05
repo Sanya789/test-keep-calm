@@ -10,6 +10,7 @@ export const Header = () => {
             <img src="images/img/Circeya.svg" alt="carousel_img" />
           </a>
           <div className="header__phone">
+            <img src="images/img/Vector.svg"/>
             <p>+7 (495) 495-49-54</p>
           </div>
         </div>

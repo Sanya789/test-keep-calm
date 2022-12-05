@@ -18,14 +18,15 @@ export const UpperContentBlock = () => {
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
           nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+          eu fugiat nulla pariatur. 
+          <br/>Excepteur sint occaecat cupidatat non proident, sunt
           in culpa qui officia deserunt mollit anim id est laborum
         </p>
       </div>
     </div>
     <div className="content-block__container__right">
       <div className="container-right__img">
-        <img src="images/img/1.png" />
+        <img src="images/img/2.png" />
       </div>
       <div className="container-right__abstract">
         <h1 className="container-right__title">
@@ -35,7 +36,8 @@ export const UpperContentBlock = () => {
           Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
           nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+          eu fugiat nulla pariatur. 
+          <br/>Excepteur sint occaecat cupidatat non proident, sunt
           in culpa qui officia deserunt mollit anim id est laborum
         </p>
       </div>
